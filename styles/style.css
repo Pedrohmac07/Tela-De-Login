@@ -18,6 +18,10 @@ Destaque/Erro:#FF4C4C
     box-sizing: border-box;
 }
 
+span {
+    color: #1E90FF;
+}
+
 body, html {
     background-image: url(../imgs/pexels-alex-andrews-271121-821644.jpg);
     background-size: cover;
@@ -34,9 +38,9 @@ main {
 
 fieldset#login-section {
     background-color: #0b0c10c8;
-    border: white solid 1px;
+    border: #9D4EDD solid 1px;
     border-radius: 12px;
-    height: 500px;
+    height: 550px;
     width: 360px;
     box-shadow: 0px 0px 10px #000000;
 
@@ -72,6 +76,7 @@ fieldset#login-section > div#form {
 }
 fieldset#login-section > div#form > p {
     font-size: 1.2em;
+    text-indent: 5px;
     padding-left: 20px;
     margin-bottom: 10px;
     color: white;
@@ -81,5 +86,59 @@ fieldset#login-section > div#form > p {
 form {
     background-color: rgba(240, 248, 255, 0.144);
     border-radius: 12px;
+    border: #9D4EDD dashed 1px;
     padding: 10px;
+}
+
+label {
+    display: none;
+}
+form > button[type=submit] {
+    display: block;
+    margin-top: 15px;
+    background-color: #1E90FF;
+    width: 100%;
+    height: 40px;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 6px;
+    font-size: 1em;
+    cursor: pointer;
+}
+form > button[type=submit]:hover {
+    background-color: #104E8B;
+}
+
+form > a.button {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #1E90FF;
+    width: 100%;
+    height: 40px;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 6px;
+    font-size: 1em;
+    text-decoration: none;
+    cursor: pointer;
+}
+form > a.button:hover {
+    background-color: #104E8B;
+}
+
+.input-group > input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 6px;
+    font-size: 1.2em;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    width: 80%;
+    height: 35px;
+    background-color: aliceblue;
+    border: #9D4EDD solid 1px;
+    border-radius: 6px;
 }
