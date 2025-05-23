@@ -143,3 +143,15 @@ form > a.button:hover {
     border: #9D4EDD solid 1px;
     border-radius: 6px;
 }
+
+.vibrate {
+    animation: vibrar 0.3s ease;
+}
+
+@keyframes vibrar {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-4px); }
+    50% { transform: translateX(4px); }
+    75% { transform: translateX(-4px); }
+    100% { transform: translateX(0); }
+}

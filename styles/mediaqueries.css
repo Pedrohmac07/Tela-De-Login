@@ -15,6 +15,7 @@ Extra large screens, TV – 1201px, and more.
 @media screen and (min-width: 768px) and (max-width: 992px) {
     fieldset#login-section {
         width: 90vw;
+        height: 90vh;
     }
     fieldset#login-section > div#image {
         float: left;
@@ -34,6 +35,14 @@ Extra large screens, TV – 1201px, and more.
         top: 50%;
         left: 65%;
         transform: translate(-50%, -50%);
+    }
+    fieldset#login-section > div#form > p {
+    font-size: 2em;
+    text-align: center;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: #000000 0px 0px 5px;
     }
 }
 
@@ -60,5 +69,13 @@ Extra large screens, TV – 1201px, and more.
         top: 50%;
         left: 70%;
         transform: translate(-50%, -50%);
+    }
+    fieldset#login-section > div#form > p {
+    font-size: 2.25em;
+    text-align: center;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: #000000 0px 0px 5px;
     }
  }
